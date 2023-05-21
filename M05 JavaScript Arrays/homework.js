@@ -9,13 +9,13 @@ function devolverPrimerElemento(array) {
 function devolverUltimoElemento(array) {
    // Retornar el último elemento del arreglo recibido por parámetro.
    // Tu código:
-   return array[array.lenght - 1];
+   return array.pop();
 }
 
 function obtenerLargoDelArray(array) {
    // Retornar la longitud del arreglo recibido por parámetro.
    // Tu código:
-   return array.lenght;
+   return array.lenght
 }
 
 function incrementarPorUno(array) {
@@ -111,7 +111,7 @@ function numeroMasGrande(arrayOfNums) {
    // Retornar el número más grande.
    // Tu código:
    var numeroMayor = 0;
-   for(let i = 0; i < arrayOfNums.lenght; ++i){
+   for(let i = 0 ; i < arrayOfNums.lenght ; i++){
       if(arrayOfNums[i] > numeroMayor){
          numeroMayor = arrayOfNums[i];
       }
@@ -132,7 +132,7 @@ function multiplicarArgumentos() {
       }else{
          var producto = 1;
          for(let i = 0; i < arguments.length; i++){
-      producto *= arguments[i];       r  }
+      producto *= arguments[i];}
       }
    }
    return producto;
